@@ -1,0 +1,159 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    background-color: rgb(34,34,34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 15px 100px;
+    min-height: 100vh;
+    position: relative;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #131314;
+    padding: 15px 0;
+    border-radius: 6px;
+}
+
+header, footer {
+    width: 100%;
+}
+
+a{
+    display: inline-block; /* or display: block; */
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: .2s ease-in-out;
+}
+
+a:hover{
+    color: #A2A7D4;
+    background: rgba(0, 0, 0, 0.31);
+
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /*padding-left: 110px;*/
+}
+
+h2{
+    font-size: 56px;
+    line-height: 1px;
+    font-family: poppinsmedium;
+}
+
+p, li{
+    text-align: justify;
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+li {
+    padding: 14px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    width: 70%;
+}
+
+form [type="text"], form [type="email"] {
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #A2A7D4;
+    color: #333;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+    border: none;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+    background: rgba(162, 167, 212, 0.81);
+}
+
+input{
+    margin: 20px 0 10px;
+    height: 15px;
+    padding: 15px;
+    border-radius: 4px;
+    border: none;
+}
+
+footer{
+    font-family: poppinslight;
+    padding: 15px;
+    margin-bottom: 0;
+    font-size: 10px;
+    width: 100%;
+    background-color: #1e1f20;
+    color: white;
+    text-align: right;
+}
+
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    padding-left: 24px;
+}
+
+.colored{
+    color: #A2A7D4;
+    margin-bottom: 20px;
+}
+
+.sized {
+    font-size: 20px;
+    margin-right: 14px;
+}
+
+.links{
+    margin: 20px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+::selection {
+    background-color: #A2A7D4;
+    color: #FFF;
+}
