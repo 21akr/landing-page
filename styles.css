@@ -1,11 +1,9 @@
-/* Reset default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Global styles */
 body {
     display: flex;
     flex-direction: column;
@@ -23,9 +21,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     background: #131314;
-    padding: 15px 0;
     border-radius: 6px;
+    padding: 25px 0;
     margin-bottom: 15px;
 }
 
@@ -105,10 +104,14 @@ input {
 }
 
 footer {
+    display: flex;
+    justify-content: space-around;
+
     padding: 15px 0;
     margin-bottom: 0;
-    font-size: 10px;
     width: 100%;
+
+    font-size: 10px;
     background-color: #1e1f20;
     color: white;
     text-align: right;
@@ -152,7 +155,7 @@ footer {
 
 .footer-content {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 ::selection {
@@ -161,13 +164,13 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-   h1 {
-       font-size: 28px;
-   }
+    h1 {
+        font-size: 28px;
+    }
 
     h2 {
-       font-size: 46px;
-   }
+        font-size: 46px;
+    }
 
     main {
         flex-direction: column;
@@ -175,7 +178,7 @@ footer {
     }
 
     a {
-        padding: 5px ;
+        padding: 5px;
         font-size: 16px;
     }
 
