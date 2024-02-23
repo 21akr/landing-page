@@ -104,9 +104,6 @@ input {
 }
 
 footer {
-    display: flex;
-    justify-content: space-around;
-
     padding: 15px 0;
     margin-bottom: 0;
     width: 100%;
@@ -154,6 +151,9 @@ footer {
 }
 
 .footer-content {
+    display: flex;
+    justify-content: space-around;
+
     max-width: 1200px;
     margin: 0;
 }
